@@ -1,6 +1,5 @@
 /*font-family: 'Lato', sans-serif;
 font-family: 'Poppins', sans-serif;
-
 D8E2DC
 FFE5D9
 FFCAD4
@@ -8,19 +7,6 @@ E5989B
 B5838D
 6D6875
 */
-/* BODY */
-body{
-    background-color: #D8E2DC;
-}
-
-img {
-    width: 100%;
-    height: auto;
-}
-
-h1, p, a {
-    font-family: 'Poppins', sans-serif;
-}
 
 /* HEADER */
 .header-wrapper {
@@ -59,18 +45,27 @@ h1, p, a {
     text-decoration: none;
     color: #6D6875;
     transition: all ease .25s;
-    
 }
-
-/*
-media query to fix gap on nav bar
-*/
 
 .nav-bar a:hover {
-    color: black;
+    color: #E5989B;
 }
 
-/* ABOUT */
+/* BODY */
+body{
+    background-color: #D8E2DC;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1, p, a {
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ABOUT PAGE */
 
 .about-text{
     display: flex;
@@ -96,16 +91,15 @@ media query to fix gap on nav bar
     color: #6D6875;
 }
   
-/* visited link */
 .about-text-tile a:visited {
     color: #B5838D;
 }
   
-/* mouse over link */
 .about-text-tile a:hover {
     color: #E5989B;
 }
 
+/* MEDIA QUERY FOR PHONE */
 @media only screen and (max-width: 500px) {
     .header {
         flex-direction: column;
