@@ -82,7 +82,9 @@ h1, h2, p, a {
 .contact-footer a {
     font-size: 24px;
     color: #B5838D;
-    border: 2px soild #B5838D;
+    border-width: 2px;
+    border-color: black;
+    border-style: soild;
     width: 40px;
     height: 40px;
     line-height: 38px;
