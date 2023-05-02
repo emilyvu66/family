@@ -5,6 +5,7 @@ FFE5D9
 FFCAD4
 E5989B
 B5838D
+#A16369
 6D6875
 #66606C
 */
@@ -77,12 +78,12 @@ h1, h2, p, a {
 .contact-footer {
     text-align: center;
     padding-bottom: 25px;
-    color: #B5838D;
+    color: #A16369;
 }
 
 .contact-footer a {
     font-size: 24px;
-    color: #B5838D;
+    color: #A16369;
     border-width: 2px;
     border-color: black;
     border-style: soild;
@@ -114,7 +115,7 @@ h1, h2, p, a {
 }
 
 .page-list-footer li a {
-    color: #B5838D;
+    color: #A16369;
     text-decoration: none;
     opacity: .8; 
 }
@@ -127,7 +128,7 @@ h1, h2, p, a {
     text-align: center;
     margin-top: 15px;
     font-size: 13px;
-    color: #B5838D;
+    color: #A16369;
 }
 
 /* ABOUT PAGE */
