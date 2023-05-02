@@ -65,6 +65,68 @@ h1, p, a {
     font-family: 'Poppins', sans-serif;
 }
 
+/* FOOTER */
+
+.footer-wrapper {
+    margin: 0;
+    padding: 40px 0;
+    background-color: white;
+}
+
+.contact-footer {
+    text-align: center;
+    padding-bottom: 25px;
+    color: #B5838D;
+}
+
+.contact-footer a {
+    font-size: 24px;
+    color: #B5838D;
+    border: 1px soild #B5838D;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 0 8px;
+    opacity: .75;
+}
+
+.contact-footer a:hover{
+    opacity: 1;
+}
+
+.page-list-footer {
+    list-style: none;
+    font-size: 18px;
+    line-height: 1.6;
+    text-align: center;
+}
+
+.page-list-footer li {
+    text-align: center;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.page-list-footer li a {
+    color: #B5838D;
+    text-decoration: none;
+    opacity: .8; 
+}
+
+.page-list-footer li a:hover {
+    opacity: 1;
+}
+
+.copyright-footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 13px;
+    color: #B5838D;
+}
+
 /* ABOUT PAGE */
 
 .about-text{
