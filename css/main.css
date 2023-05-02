@@ -6,6 +6,7 @@ FFCAD4
 E5989B
 B5838D
 6D6875
+#66606C
 */
 
 /* HEADER */
@@ -43,7 +44,7 @@ B5838D
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     text-decoration: none;
-    color: #434048;
+    color: #66606C;
     transition: all ease .25s;
 }
 
