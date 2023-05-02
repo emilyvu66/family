@@ -23,6 +23,10 @@ B5838D
     margin-bottom: 32px;
 }
 
+.header img {
+    max-width: 200px;
+}
+
 .t-hidden {
     padding: 0;
     width: 1px;
@@ -167,8 +171,7 @@ h1, h2, p, a {
 /* PROJECTS */
 
 .val-row-3 img {
-    width: auto;
-    height: auto;
+    max-width: 350px;
 }
 
 .val-row-3-tiles {
@@ -193,12 +196,19 @@ h1, h2, p, a {
     .header-wrapper {
         margin-left: 0px;
         margin-right: 0px;
-
     }
 
-    .about-text-tiles{
+    .about-text-tiles {
         flex-direction: column;
         gap: 60px;
+    }
+
+    .val-row-3-tiles {
+        flex-direction: column;
+    }
+
+    .val-row-3-tile {
+        flex-direction: column;
     }
 
     .nav-bar {
