@@ -188,7 +188,7 @@ h1, h2, p, a {
     }
     .nav-bar {
         align-self: flex-start;
-        margin-left: 200px;
+        margin-left: 100px;
     }
 
     /* ABOUT */
