@@ -186,16 +186,14 @@ h1, h2, p, a {
         flex-direction: column;
     }
     .header-wrapper {
-        margin-left: 0px;
-        margin-right: 0px;
+        margin: auto;
     }
     .nav-bar {
-        align-self: flex-start;
-        margin-left: 80px;
+        gap: 30px;
     }
 
     /* ABOUT */
-    .about-text-tile {
+    .about-text-tiles {
         flex-direction: column;
         gap: 60px;
     }
