@@ -195,7 +195,7 @@ h1, h2, p, a {
     }
 
     /* ABOUT */
-    .about-text-tile {
+    .about-text-tiles {
         flex-direction: column;
         gap: 60px;
     }
