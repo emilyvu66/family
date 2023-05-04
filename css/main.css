@@ -144,10 +144,10 @@ h1, h2, p, a {
 }
 
 /* PROJECTS */
-.project-text-1 img {
+.project-text-a img {
     max-width: 350px;
 }
-.project-text-tiles-1 {
+.project-text-tiles-a {
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -155,7 +155,7 @@ h1, h2, p, a {
     border-radius: 12px;
     text-align: center;
   }
-.project-text-tile-1 img {
+.project-text-tile-a img {
     padding: 20px;
 }
 
