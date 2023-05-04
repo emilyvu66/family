@@ -144,16 +144,33 @@ h1, h2, p, a {
 }
 
 /* PROJECTS */
-.project-text img {
+.project-text-1 img {
     max-width: 350px;
 }
-.project-text-tiles {
+.project-text-tiles-1 {
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
+  }
+.project-text-tile-1 img {
+    padding: 20px;
+}
+
+/* PROJECTS */
+.project-text img {
+    max-width: 200px;
+}
+.project-text-tiles {
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  .project-text-tiles p {
+    max-width: 700px;
+    margin:0 auto;
   }
 .project-text-tile img {
     padding: 20px;
