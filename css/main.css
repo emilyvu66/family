@@ -198,11 +198,11 @@ h1, h2, p, a {
     }
 
     /* PROJECTS */
-    .project-text-tiles {
+    .project-text-tiles-a {
         flex-direction: column;
     }
 
-    .project-text-tile {
+    .project-text-tile-a {
         flex-direction: column;
     }
 
