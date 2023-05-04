@@ -188,7 +188,7 @@ h1, h2, p, a {
     }
     .nav-bar {
         align-self: flex-start;
-        margin-left: 100px;
+        margin-left: 80px;
     }
 
     /* ABOUT */
@@ -201,9 +201,4 @@ h1, h2, p, a {
     .project-text-tiles-a {
         flex-direction: column;
     }
-
-    .project-text-tile {
-        flex-direction: column;
-    }
-
 }  
