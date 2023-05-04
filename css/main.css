@@ -149,17 +149,18 @@ h1, h2, p, a {
 }
 
 /* Parent Page */
-.parent-page-text {
+
+.parent-page-text img {
+    max-width: 350px;
+}
+.parent-page-text-tiles {
     display: flex;
     justify-content: center;
     gap: 50px;
     padding: 20px;
     border-radius: 12px;
     text-align: center;
-}
-  .parent-page-text img {
-    max-width: 350px;
-}
+  }
 .parent-page-text-tile img {
     padding: 20px;
 }
@@ -201,6 +202,11 @@ h1, h2, p, a {
     }
 
     /* PROJECTS */
+
+    .parent-page-text-tiles {
+        flex-direction: column;
+    }
+
     .parent-page-text-tile {
         flex-direction: column;
     }
